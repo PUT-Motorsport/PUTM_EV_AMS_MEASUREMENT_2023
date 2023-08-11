@@ -1,3 +1,3 @@
 # PUTM_EV_AMS_MEASUREMENT_2023
-Accumulator Management System
-Voltage & Temperature Measurement Board 
+BMS HV / AMS
+Voltage & Temperature Measurement Board for PM09 vehicle.
