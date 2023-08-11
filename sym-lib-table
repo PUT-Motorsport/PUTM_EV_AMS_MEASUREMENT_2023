@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Spring_contant")(type "KiCad")(uri "${KIPRJMOD}/Spring_contant.kicad_sym")(options "")(descr ""))
+)
