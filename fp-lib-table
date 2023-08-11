@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Spring_Contact")(type "KiCad")(uri "${KIPRJMOD}/Spring_Contact.pretty")(options "")(descr ""))
+)
