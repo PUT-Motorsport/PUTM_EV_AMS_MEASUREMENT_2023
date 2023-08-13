@@ -1,4 +1,4 @@
-21863569330349181
+21866952678958664
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -23323,6 +23323,13 @@ Connector_PCBEdge
 0
 80
 80
+Connector_PCBEdge
+555308430
+5-5530843-0-1
+Connector
+0
+20
+20
 Connector_PCBEdge
 BUS_AT
 AT ISA 16 bits Bus Edge Connector
@@ -84006,6 +84013,13 @@ https://www.farnell.com/cad/316865.pdf?_ga=2.37208032.177107060.1530611323-24901
 0
 48
 48
+Spring_Contact
+S196146R
+S1961-46R-2
+Connector
+0
+1
+1
 Symbol
 CE-Logo_8.5x6mm_SilkScreen
 CE marking
