@@ -866,7 +866,7 @@
     (property "Value" "Conn_02x10_Odd_Even" (at 190.5 45.72 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_PCBEdge:555308430" (at 189.23 59.69 0)
+    (property "Footprint" "Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical" (at 189.23 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 189.23 59.69 0)
