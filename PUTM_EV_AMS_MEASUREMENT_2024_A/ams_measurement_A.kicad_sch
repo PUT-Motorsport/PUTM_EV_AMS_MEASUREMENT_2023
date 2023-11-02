@@ -13,43 +13,6 @@
   )
 
   (lib_symbols
-    (symbol "Connector_Generic:Conn_01x01" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Conn_01x01" (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Conn_01x01_1_1"
-        (rectangle (start -1.27 0.127) (end 0 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 1.27) (end 1.27 -1.27)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (pin passive line (at -5.08 0 0) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Connector_Generic:Conn_02x10_Odd_Even" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 1.27 12.7 0)
         (effects (font (size 1.27 1.27)))
@@ -405,14 +368,161 @@
         )
       )
     )
+    (symbol "Wago Connector:2065-100_998-403" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+      (property "Reference" "J" (at -1.27 6.35 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "Value" "2065-100/998-403" (at 0 0 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "Footprint" "CONN_2065-100/998-403_1_WAG" (at 0 0 0)
+        (effects (font (size 1.27 1.27) italic) hide)
+      )
+      (property "Datasheet" "2065-100/998-403" (at 0 0 0)
+        (effects (font (size 1.27 1.27) italic) hide)
+      )
+      (property "ki_locked" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "ki_keywords" "2065-100/998-403" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "CONN_2065-100/998-403_1_WAG" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "2065-100_998-403_1_1"
+        (polyline
+          (pts
+            (xy -5.08 -2.54)
+            (xy 2.54 -2.54)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -5.08 2.54)
+            (xy -5.08 -2.54)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy -5.08 0)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy -1.27 -0.8467)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy -1.27 0.8467)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 -2.54)
+            (xy 2.54 2.54)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 2.54)
+            (xy -5.08 2.54)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (pin unspecified line (at -10.16 0 0) (length 5.08)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (symbol "2065-100_998-403_1_2"
+        (polyline
+          (pts
+            (xy -5.08 -2.54)
+            (xy 2.54 -2.54)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -5.08 2.54)
+            (xy -5.08 -2.54)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 0)
+            (xy -5.08 0)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 0)
+            (xy -1.27 -0.8467)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 0)
+            (xy -1.27 0.8467)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 -2.54)
+            (xy 2.54 2.54)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 2.54)
+            (xy -5.08 2.54)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (pin unspecified line (at -10.16 0 0) (length 5.08)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
   )
 
 
   (no_connect (at 184.15 67.31) (uuid b17275d3-ffdb-4d9d-b494-36184c0bebc0))
 
-  (wire (pts (xy 64.77 101.6) (xy 77.47 101.6))
+  (wire (pts (xy 69.85 124.46) (xy 77.47 124.46))
     (stroke (width 0) (type default))
-    (uuid 003612f9-d091-4409-965d-742995715602)
+    (uuid 00307b5d-fe67-4549-be2d-920f785fde95)
   )
   (wire (pts (xy 175.26 59.69) (xy 184.15 59.69))
     (stroke (width 0) (type default))
@@ -429,10 +539,6 @@
   (wire (pts (xy 146.05 123.19) (xy 135.89 123.19))
     (stroke (width 0) (type default))
     (uuid 0b61cf24-1bd3-4545-a8c7-f8baf972d1c4)
-  )
-  (wire (pts (xy 64.77 90.17) (xy 77.47 90.17))
-    (stroke (width 0) (type default))
-    (uuid 11f8df07-e99f-4688-9a4b-b78aac435799)
   )
   (wire (pts (xy 196.85 59.69) (xy 205.74 59.69))
     (stroke (width 0) (type default))
@@ -453,10 +559,6 @@
   (wire (pts (xy 237.49 123.19) (xy 227.33 123.19))
     (stroke (width 0) (type default))
     (uuid 19a2dd55-73dd-4884-b367-7596a601817a)
-  )
-  (wire (pts (xy 64.77 78.74) (xy 77.47 78.74))
-    (stroke (width 0) (type default))
-    (uuid 25473faa-c821-48a9-8380-ef775865ea46)
   )
   (wire (pts (xy 196.85 67.31) (xy 205.74 67.31))
     (stroke (width 0) (type default))
@@ -502,6 +604,10 @@
     (stroke (width 0) (type default))
     (uuid 42a22a84-631c-4580-8b20-920a2466f7a9)
   )
+  (wire (pts (xy 69.85 101.6) (xy 77.47 101.6))
+    (stroke (width 0) (type default))
+    (uuid 464b8351-e600-4fe1-8624-a5aa66847a8b)
+  )
   (wire (pts (xy 175.26 52.07) (xy 184.15 52.07))
     (stroke (width 0) (type default))
     (uuid 478de52a-7c27-46a0-93fa-dd284acf10b4)
@@ -518,6 +624,14 @@
     (stroke (width 0) (type default))
     (uuid 6c220894-7814-47fb-b903-a8e40d108464)
   )
+  (wire (pts (xy 69.85 55.88) (xy 77.47 55.88))
+    (stroke (width 0) (type default))
+    (uuid 6e7b2c76-1caf-4b69-9bc8-c0ee435ef444)
+  )
+  (wire (pts (xy 69.85 78.74) (xy 77.47 78.74))
+    (stroke (width 0) (type default))
+    (uuid 6f8f5dd9-3470-46c4-817f-7dd99f9d3660)
+  )
   (wire (pts (xy 175.26 72.39) (xy 184.15 72.39))
     (stroke (width 0) (type default))
     (uuid 7adc09f4-85fd-42c7-800f-dfec64e8223f)
@@ -526,17 +640,13 @@
     (stroke (width 0) (type default))
     (uuid 803410e4-666e-45b9-84fe-0d1a64128fdb)
   )
-  (wire (pts (xy 64.77 44.45) (xy 77.47 44.45))
+  (wire (pts (xy 69.85 44.45) (xy 77.47 44.45))
     (stroke (width 0) (type default))
     (uuid 8607f720-e442-4c06-82d7-edabd3dd87fe)
   )
   (wire (pts (xy 176.53 110.49) (xy 176.53 113.03))
     (stroke (width 0) (type default))
     (uuid 86d2a66c-3ffe-4a87-880b-262b1468ea8d)
-  )
-  (wire (pts (xy 64.77 67.31) (xy 77.47 67.31))
-    (stroke (width 0) (type default))
-    (uuid 88e3bf7e-ee83-480a-9b93-a6010b875ff8)
   )
   (wire (pts (xy 85.09 101.6) (xy 96.52 101.6))
     (stroke (width 0) (type default))
@@ -554,10 +664,6 @@
     (stroke (width 0) (type default))
     (uuid 9b2e2406-0f52-4383-8b66-f9e6ee4109a6)
   )
-  (wire (pts (xy 64.77 124.46) (xy 77.47 124.46))
-    (stroke (width 0) (type default))
-    (uuid 9ca60c6e-1c47-45d8-baae-3485e7da2e09)
-  )
   (wire (pts (xy 196.85 110.49) (xy 207.01 110.49))
     (stroke (width 0) (type default))
     (uuid a5a1f286-2e3f-4c41-bab6-ec256c01426e)
@@ -565,6 +671,14 @@
   (wire (pts (xy 175.26 57.15) (xy 184.15 57.15))
     (stroke (width 0) (type default))
     (uuid a8e1176a-4fe9-4153-9cd8-4c7167160a17)
+  )
+  (wire (pts (xy 69.85 135.89) (xy 77.47 135.89))
+    (stroke (width 0) (type default))
+    (uuid ab4b9305-37e2-4d4e-a247-1f05b6232735)
+  )
+  (wire (pts (xy 69.85 90.17) (xy 77.47 90.17))
+    (stroke (width 0) (type default))
+    (uuid b2904dfc-cbad-437d-90da-8b4ae2aff085)
   )
   (wire (pts (xy 146.05 120.65) (xy 146.05 123.19))
     (stroke (width 0) (type default))
@@ -574,37 +688,25 @@
     (stroke (width 0) (type default))
     (uuid b9b78775-1b67-495b-887d-697f3881a237)
   )
-  (wire (pts (xy 64.77 158.75) (xy 77.47 158.75))
-    (stroke (width 0) (type default))
-    (uuid b9f5287f-e30a-4da2-b0f7-1ea3aef83a60)
-  )
-  (wire (pts (xy 64.77 135.89) (xy 77.47 135.89))
-    (stroke (width 0) (type default))
-    (uuid bc3ae980-7f8d-4116-83d6-67fd34d05ca7)
-  )
   (wire (pts (xy 176.53 120.65) (xy 176.53 123.19))
     (stroke (width 0) (type default))
     (uuid bdf9a23a-e40f-43e9-a909-06fe8b851b20)
   )
-  (wire (pts (xy 64.77 55.88) (xy 77.47 55.88))
+  (wire (pts (xy 69.85 147.32) (xy 77.47 147.32))
     (stroke (width 0) (type default))
-    (uuid bef74f5d-f4d4-4d1e-a3ea-30986b502912)
-  )
-  (wire (pts (xy 64.77 147.32) (xy 77.47 147.32))
-    (stroke (width 0) (type default))
-    (uuid c1f20cb2-cb8c-4c1c-aeb5-67656df1981d)
+    (uuid c1ba9325-d127-4b7d-94d9-c13e841df1ef)
   )
   (wire (pts (xy 175.26 64.77) (xy 184.15 64.77))
     (stroke (width 0) (type default))
     (uuid c798f5b8-1d5c-4cb0-afe5-2dbeeb96a48a)
   )
-  (wire (pts (xy 64.77 113.03) (xy 77.47 113.03))
-    (stroke (width 0) (type default))
-    (uuid c8d46b6d-856e-419d-b054-a53f9a5fe6ad)
-  )
   (wire (pts (xy 85.09 67.31) (xy 96.52 67.31))
     (stroke (width 0) (type default))
     (uuid cc8174f5-cec5-43ca-a890-2defe0f4e66d)
+  )
+  (wire (pts (xy 69.85 67.31) (xy 77.47 67.31))
+    (stroke (width 0) (type default))
+    (uuid d617af96-9cfa-4c3d-90d4-e8262eb36654)
   )
   (wire (pts (xy 85.09 113.03) (xy 96.52 113.03))
     (stroke (width 0) (type default))
@@ -618,9 +720,17 @@
     (stroke (width 0) (type default))
     (uuid df4d8680-7ee4-4861-817a-6990964d3b83)
   )
+  (wire (pts (xy 69.85 158.75) (xy 77.47 158.75))
+    (stroke (width 0) (type default))
+    (uuid e6ea88e2-9945-4a66-8d23-72ff4525aea1)
+  )
   (wire (pts (xy 196.85 57.15) (xy 205.74 57.15))
     (stroke (width 0) (type default))
     (uuid f0557357-e2f5-49e7-8700-a0495788ca9e)
+  )
+  (wire (pts (xy 69.85 113.03) (xy 77.47 113.03))
+    (stroke (width 0) (type default))
+    (uuid f3a63714-0a33-4340-9047-baf80cbc1b02)
   )
   (wire (pts (xy 196.85 54.61) (xy 205.74 54.61))
     (stroke (width 0) (type default))
@@ -828,7 +938,7 @@
     (pin "8" (uuid 4ab8930d-c62c-422b-96db-80212b122b08))
     (pin "9" (uuid 1db00b65-81e3-4b03-8924-c87ad55c228e))
     (instances
-      (project "ams_measurement"
+      (project "ams_measurement_A"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "J12") (unit 1)
         )
@@ -836,7 +946,7 @@
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 59.69 55.88 180) (unit 1)
+  (symbol (lib_id "Wago Connector:2065-100_998-403") (at 59.69 55.88 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 240d144c-69dd-4ee9-a105-b0cb2e920d5c)
     (property "Reference" "J2" (at 59.69 49.53 0)
@@ -845,15 +955,15 @@
     (property "Value" "CELL_PAD" (at 59.69 52.07 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Cell Pad:CELL_PAD" (at 59.69 55.88 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Footprint" "Wago_Connector:CONN_2065-100&slash_998-403_1_WAG" (at 59.69 55.88 0)
+      (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "Datasheet" "~" (at 59.69 55.88 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Datasheet" "2065-100/998-403" (at 59.69 55.88 0)
+      (effects (font (size 1.27 1.27) italic) hide)
     )
     (pin "1" (uuid 0e79987c-2a52-4e71-b477-034715392b3c))
     (instances
-      (project "ams_measurement"
+      (project "ams_measurement_A"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "J2") (unit 1)
         )
@@ -861,7 +971,7 @@
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 59.69 78.74 180) (unit 1)
+  (symbol (lib_id "Wago Connector:2065-100_998-403") (at 59.69 78.74 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2ea0992a-63e2-4f5c-bf16-0a472774bee9)
     (property "Reference" "J4" (at 59.69 72.39 0)
@@ -870,15 +980,15 @@
     (property "Value" "CELL_PAD" (at 59.69 74.93 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Cell Pad:CELL_PAD" (at 59.69 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Footprint" "Wago_Connector:CONN_2065-100&slash_998-403_1_WAG" (at 59.69 78.74 0)
+      (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "Datasheet" "~" (at 59.69 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Datasheet" "2065-100/998-403" (at 59.69 78.74 0)
+      (effects (font (size 1.27 1.27) italic) hide)
     )
     (pin "1" (uuid a0b9ee4d-4fed-401e-8ee4-d749db581422))
     (instances
-      (project "ams_measurement"
+      (project "ams_measurement_A"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "J4") (unit 1)
         )
@@ -904,7 +1014,7 @@
     (pin "1" (uuid 21ec53ac-bbf4-41e2-8a57-62ad3cfb7e90))
     (pin "2" (uuid b490e54b-3094-422e-8bb9-ca2bf7073242))
     (instances
-      (project "ams_measurement"
+      (project "ams_measurement_A"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "F3") (unit 1)
         )
@@ -930,7 +1040,7 @@
     (pin "1" (uuid 77c16a95-296e-47a3-85d3-1d531fa120cd))
     (pin "2" (uuid e5d86f09-29fa-4ace-b2a4-96c286e115be))
     (instances
-      (project "ams_measurement"
+      (project "ams_measurement_A"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "F7") (unit 1)
         )
@@ -956,7 +1066,7 @@
     (pin "1" (uuid 50e473a3-4208-4d3f-8382-047c7bf9eab7))
     (pin "2" (uuid 36cd3868-9602-4e05-91e5-dbed0fa90726))
     (instances
-      (project "ams_measurement"
+      (project "ams_measurement_A"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "F4") (unit 1)
         )
@@ -964,7 +1074,7 @@
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 59.69 67.31 180) (unit 1)
+  (symbol (lib_id "Wago Connector:2065-100_998-403") (at 59.69 67.31 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 44e9cff3-7b72-4517-9847-21e104e2c452)
     (property "Reference" "J3" (at 59.69 60.96 0)
@@ -973,15 +1083,15 @@
     (property "Value" "CELL_PAD" (at 59.69 63.5 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Cell Pad:CELL_PAD" (at 59.69 67.31 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Footprint" "Wago_Connector:CONN_2065-100&slash_998-403_1_WAG" (at 59.69 67.31 0)
+      (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "Datasheet" "~" (at 59.69 67.31 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Datasheet" "2065-100/998-403" (at 59.69 67.31 0)
+      (effects (font (size 1.27 1.27) italic) hide)
     )
     (pin "1" (uuid 1306e7df-ffa5-4d3e-b710-58eb7f1de949))
     (instances
-      (project "ams_measurement"
+      (project "ams_measurement_A"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "J3") (unit 1)
         )
@@ -1007,7 +1117,7 @@
     (pin "1" (uuid b13388bb-1a44-458b-ac2b-df6f29ee38e0))
     (pin "2" (uuid 43f61b16-23b4-407d-8050-9b81bc014eef))
     (instances
-      (project "ams_measurement"
+      (project "ams_measurement_A"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "F9") (unit 1)
         )
@@ -1033,7 +1143,7 @@
     (pin "1" (uuid 36a90b9a-f824-4c2e-9a42-dbf77a3fdd89))
     (pin "2" (uuid fa06b370-5141-4257-968c-ee9867be5525))
     (instances
-      (project "ams_measurement"
+      (project "ams_measurement_A"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "F2") (unit 1)
         )
@@ -1041,7 +1151,7 @@
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 59.69 101.6 180) (unit 1)
+  (symbol (lib_id "Wago Connector:2065-100_998-403") (at 59.69 101.6 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 57f8aae9-3d6d-4750-bb01-9714f2192fa1)
     (property "Reference" "J6" (at 59.69 95.25 0)
@@ -1050,15 +1160,15 @@
     (property "Value" "CELL_PAD" (at 59.69 97.79 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Cell Pad:CELL_PAD" (at 59.69 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Footprint" "Wago_Connector:CONN_2065-100&slash_998-403_1_WAG" (at 59.69 101.6 0)
+      (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "Datasheet" "~" (at 59.69 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Datasheet" "2065-100/998-403" (at 59.69 101.6 0)
+      (effects (font (size 1.27 1.27) italic) hide)
     )
     (pin "1" (uuid 5924cb25-6781-41ce-84db-1cfdb4acdacd))
     (instances
-      (project "ams_measurement"
+      (project "ams_measurement_A"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "J6") (unit 1)
         )
@@ -1072,10 +1182,10 @@
     (property "Reference" "TH2" (at 179.07 115.8875 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "B57861S0103F040" (at 179.07 118.4275 0)
+    (property "Value" "TT7-10KC8-3" (at 179.07 118.4275 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" (at 176.53 115.57 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 176.53 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 176.53 115.57 0)
@@ -1084,7 +1194,7 @@
     (pin "1" (uuid 4c113ac8-c776-4587-a068-92edf921d4fd))
     (pin "2" (uuid cc6f3373-87dd-49dd-9124-f498ab86abaa))
     (instances
-      (project "ams_measurement"
+      (project "ams_measurement_A"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "TH2") (unit 1)
         )
@@ -1092,7 +1202,7 @@
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 59.69 90.17 180) (unit 1)
+  (symbol (lib_id "Wago Connector:2065-100_998-403") (at 59.69 90.17 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 753418fe-95e1-4f28-aea7-331242b7fe98)
     (property "Reference" "J5" (at 59.69 83.82 0)
@@ -1101,15 +1211,15 @@
     (property "Value" "CELL_PAD" (at 59.69 86.36 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Cell Pad:CELL_PAD" (at 59.69 90.17 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Footprint" "Wago_Connector:CONN_2065-100&slash_998-403_1_WAG" (at 59.69 90.17 0)
+      (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "Datasheet" "~" (at 59.69 90.17 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Datasheet" "2065-100/998-403" (at 59.69 90.17 0)
+      (effects (font (size 1.27 1.27) italic) hide)
     )
     (pin "1" (uuid a6d970c5-b750-4133-9656-93da8c3fa307))
     (instances
-      (project "ams_measurement"
+      (project "ams_measurement_A"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "J5") (unit 1)
         )
@@ -1135,7 +1245,7 @@
     (pin "1" (uuid 74061ff3-a4c4-494e-9809-81e8f6f85307))
     (pin "2" (uuid 1a5278ca-6289-49bc-9275-b01be5967855))
     (instances
-      (project "ams_measurement"
+      (project "ams_measurement_A"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "F1") (unit 1)
         )
@@ -1149,10 +1259,10 @@
     (property "Reference" "TH1" (at 148.59 115.8875 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "B57861S0103F040" (at 148.59 118.4275 0)
+    (property "Value" "TT7-10KC8-3" (at 148.59 118.4275 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" (at 146.05 115.57 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 146.05 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 146.05 115.57 0)
@@ -1161,7 +1271,7 @@
     (pin "1" (uuid dcfcaaf6-c4a9-449c-9be8-04cca8ed982e))
     (pin "2" (uuid 02047c20-4ac1-47f0-85eb-81dcd5c20417))
     (instances
-      (project "ams_measurement"
+      (project "ams_measurement_A"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "TH1") (unit 1)
         )
@@ -1169,7 +1279,7 @@
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 59.69 44.45 180) (unit 1)
+  (symbol (lib_id "Wago Connector:2065-100_998-403") (at 59.69 44.45 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 82618fdf-5cd3-4395-b523-5ab135b66601)
     (property "Reference" "J1" (at 59.69 38.1 0)
@@ -1178,15 +1288,15 @@
     (property "Value" "CELL_PAD" (at 59.69 40.64 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Cell Pad:CELL_PAD" (at 59.69 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Footprint" "Wago_Connector:CONN_2065-100&slash_998-403_1_WAG" (at 59.69 44.45 0)
+      (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "Datasheet" "~" (at 59.69 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Datasheet" "2065-100/998-403" (at 59.69 44.45 0)
+      (effects (font (size 1.27 1.27) italic) hide)
     )
     (pin "1" (uuid 83bcf97d-f61f-458b-9561-45e97a877679))
     (instances
-      (project "ams_measurement"
+      (project "ams_measurement_A"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "J1") (unit 1)
         )
@@ -1212,7 +1322,7 @@
     (pin "1" (uuid 46894ffc-a114-411e-84dc-f0ba76a81553))
     (pin "2" (uuid 011f2361-456a-45da-ba3c-725b13159a17))
     (instances
-      (project "ams_measurement"
+      (project "ams_measurement_A"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "F5") (unit 1)
         )
@@ -1238,7 +1348,7 @@
     (pin "1" (uuid 853f797b-145b-427c-af8b-c9b5406158a4))
     (pin "2" (uuid be3687f8-674e-4702-a592-2a95999139bd))
     (instances
-      (project "ams_measurement"
+      (project "ams_measurement_A"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "F10") (unit 1)
         )
@@ -1246,7 +1356,7 @@
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 59.69 124.46 180) (unit 1)
+  (symbol (lib_id "Wago Connector:2065-100_998-403") (at 59.69 124.46 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9427cfc2-dcc1-4fb2-902c-a5dbe5a13bfe)
     (property "Reference" "J8" (at 59.69 118.11 0)
@@ -1255,15 +1365,15 @@
     (property "Value" "CELL_PAD" (at 59.69 120.65 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Cell Pad:CELL_PAD" (at 59.69 124.46 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Footprint" "Wago_Connector:CONN_2065-100&slash_998-403_1_WAG" (at 59.69 124.46 0)
+      (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "Datasheet" "~" (at 59.69 124.46 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Datasheet" "2065-100/998-403" (at 59.69 124.46 0)
+      (effects (font (size 1.27 1.27) italic) hide)
     )
     (pin "1" (uuid 8bde2de1-23f3-4a6b-aabc-d0fb9019fea4))
     (instances
-      (project "ams_measurement"
+      (project "ams_measurement_A"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "J8") (unit 1)
         )
@@ -1271,7 +1381,7 @@
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 59.69 135.89 180) (unit 1)
+  (symbol (lib_id "Wago Connector:2065-100_998-403") (at 59.69 135.89 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9864108b-3ab4-425e-863f-6606402072f2)
     (property "Reference" "J9" (at 59.69 129.54 0)
@@ -1280,15 +1390,15 @@
     (property "Value" "CELL_PAD" (at 59.69 132.08 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Cell Pad:CELL_PAD" (at 59.69 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Footprint" "Wago_Connector:CONN_2065-100&slash_998-403_1_WAG" (at 59.69 135.89 0)
+      (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "Datasheet" "~" (at 59.69 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Datasheet" "2065-100/998-403" (at 59.69 135.89 0)
+      (effects (font (size 1.27 1.27) italic) hide)
     )
     (pin "1" (uuid 2f94ae06-d38a-4030-9a8c-e4f82f500a8a))
     (instances
-      (project "ams_measurement"
+      (project "ams_measurement_A"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "J9") (unit 1)
         )
@@ -1302,10 +1412,10 @@
     (property "Reference" "TH4" (at 240.03 115.8875 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "B57861S0103F040" (at 240.03 118.4275 0)
+    (property "Value" "TT7-10KC8-3" (at 240.03 118.4275 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" (at 237.49 115.57 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 237.49 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 237.49 115.57 0)
@@ -1314,7 +1424,7 @@
     (pin "1" (uuid 7aa3dc58-546a-467e-977f-f24705a93b7f))
     (pin "2" (uuid 7efddc8b-4204-466a-a43e-2c4bbb059a8d))
     (instances
-      (project "ams_measurement"
+      (project "ams_measurement_A"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "TH4") (unit 1)
         )
@@ -1340,7 +1450,7 @@
     (pin "1" (uuid 37f288c3-7582-4cac-80a8-6f50e5e108d4))
     (pin "2" (uuid 3ce72253-ff35-48c9-beba-a3c876846566))
     (instances
-      (project "ams_measurement"
+      (project "ams_measurement_A"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "F11") (unit 1)
         )
@@ -1366,7 +1476,7 @@
     (pin "1" (uuid da85b942-c15a-4ac1-87d5-12a9b6ac949d))
     (pin "2" (uuid e882ed28-8c74-4bbc-b9bf-ce9a20fea8db))
     (instances
-      (project "ams_measurement"
+      (project "ams_measurement_A"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "F8") (unit 1)
         )
@@ -1380,10 +1490,10 @@
     (property "Reference" "TH3" (at 209.55 115.8875 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "B57861S0103F040" (at 209.55 118.4275 0)
+    (property "Value" "TT7-10KC8-3" (at 209.55 118.4275 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" (at 207.01 115.57 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 207.01 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 207.01 115.57 0)
@@ -1392,7 +1502,7 @@
     (pin "1" (uuid 0df8c805-b02a-4d6b-9224-957d7a442f00))
     (pin "2" (uuid 385af457-b14a-4b94-a5fc-25b6527c3b49))
     (instances
-      (project "ams_measurement"
+      (project "ams_measurement_A"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "TH3") (unit 1)
         )
@@ -1418,7 +1528,7 @@
     (pin "1" (uuid 409b5bfb-3114-4314-bde6-45a2dbbab2e6))
     (pin "2" (uuid 53541805-7a7c-437c-909b-a02abdbb3434))
     (instances
-      (project "ams_measurement"
+      (project "ams_measurement_A"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "F6") (unit 1)
         )
@@ -1426,7 +1536,7 @@
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 59.69 158.75 180) (unit 1)
+  (symbol (lib_id "Wago Connector:2065-100_998-403") (at 59.69 158.75 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e28d1ac8-86f6-44e0-8f76-cdacc4fa9b8e)
     (property "Reference" "J11" (at 59.69 152.4 0)
@@ -1435,15 +1545,15 @@
     (property "Value" "CELL_PAD" (at 59.69 154.94 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Cell Pad:CELL_PAD" (at 59.69 158.75 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Footprint" "Wago_Connector:CONN_2065-100&slash_998-403_1_WAG" (at 59.69 158.75 0)
+      (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "Datasheet" "~" (at 59.69 158.75 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Datasheet" "2065-100/998-403" (at 59.69 158.75 0)
+      (effects (font (size 1.27 1.27) italic) hide)
     )
     (pin "1" (uuid 48d5dfbf-18fe-43e8-a094-58583260be4d))
     (instances
-      (project "ams_measurement"
+      (project "ams_measurement_A"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "J11") (unit 1)
         )
@@ -1451,7 +1561,7 @@
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 59.69 113.03 180) (unit 1)
+  (symbol (lib_id "Wago Connector:2065-100_998-403") (at 59.69 113.03 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eb7594eb-7465-4d67-b2f5-f9f27beb6cb5)
     (property "Reference" "J7" (at 59.69 106.68 0)
@@ -1460,15 +1570,15 @@
     (property "Value" "CELL_PAD" (at 59.69 109.22 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Cell Pad:CELL_PAD" (at 59.69 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Footprint" "Wago_Connector:CONN_2065-100&slash_998-403_1_WAG" (at 59.69 113.03 0)
+      (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "Datasheet" "~" (at 59.69 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Datasheet" "2065-100/998-403" (at 59.69 113.03 0)
+      (effects (font (size 1.27 1.27) italic) hide)
     )
     (pin "1" (uuid 97304a56-f0de-4767-a887-09b81ace087f))
     (instances
-      (project "ams_measurement"
+      (project "ams_measurement_A"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "J7") (unit 1)
         )
@@ -1476,7 +1586,7 @@
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 59.69 147.32 180) (unit 1)
+  (symbol (lib_id "Wago Connector:2065-100_998-403") (at 59.69 147.32 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f5704dd5-3c77-45e0-b483-d4e75fe7750c)
     (property "Reference" "J10" (at 59.69 140.97 0)
@@ -1485,15 +1595,15 @@
     (property "Value" "CELL_PAD" (at 59.69 143.51 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Cell Pad:CELL_PAD" (at 59.69 147.32 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Footprint" "Wago_Connector:CONN_2065-100&slash_998-403_1_WAG" (at 59.69 147.32 0)
+      (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "Datasheet" "~" (at 59.69 147.32 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Datasheet" "2065-100/998-403" (at 59.69 147.32 0)
+      (effects (font (size 1.27 1.27) italic) hide)
     )
     (pin "1" (uuid 4d522994-235e-42ec-8991-fec82f33cc49))
     (instances
-      (project "ams_measurement"
+      (project "ams_measurement_A"
         (path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
           (reference "J10") (unit 1)
         )
