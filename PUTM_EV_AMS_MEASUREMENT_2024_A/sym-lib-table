@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "Wago Connector")(type "KiCad")(uri "/Users/bartekdymaczewski/KiCad/7.0/symbols/wago-conn.kicad_sym")(options "")(descr ""))
-)
