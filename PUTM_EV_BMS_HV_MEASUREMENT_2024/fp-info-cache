@@ -1,4 +1,11 @@
-21868651461622070
+21870345732329380
+1812L050_60MR
+1812L010DR
+1812L
+Resettable Fuse
+0
+2
+2
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6306,13 +6313,6 @@ capacitor tantalum
 0
 2
 2
-Cell Pad
-CELL_PAD
-
-
-0
-1
-1
 Connector
 Banana_Cliff_FCR7350x_S16N-PC_Horizontal
 Cliff single 4mm shrouded banana panel socket, through-hole, horizontal, https://www.cliffuk.co.uk/products/testleads/sockets/S16NPC.pdf
@@ -90649,3 +90649,10 @@ varistor
 0
 2
 2
+Wago_Connector
+CONN_2065-100&slash_998-403_1_WAG
+
+2065-100/998-403 
+0
+1
+1
