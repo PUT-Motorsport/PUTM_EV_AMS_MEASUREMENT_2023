@@ -6,7 +6,7 @@
 
   (title_block
     (title "Accumulator Management System Measurement Board")
-    (date "2023-08-12")
+    (date "2023-11-16")
     (rev "${REVISION}")
     (company "Author: Bartłomiej Dymaczewski")
     (comment 1 "Reviewer:")
