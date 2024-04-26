@@ -1,5 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "Spring_Contact")(type "KiCad")(uri "${KIPRJMOD}/Spring_Contact.pretty")(options "")(descr "")(disabled))
-  (lib (name "Wago_Connector")(type "KiCad")(uri "/Users/bartekdymaczewski/KiCad/7.0/footprints/CONN_2065_100_WAG.pretty")(options "")(descr ""))
-)
